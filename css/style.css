@@ -216,3 +216,136 @@ a.text-decoration-none:hover {
         margin-bottom: 20px;
     }
 }
+
+/* Category */
+.featured-section {
+    position: relative;
+    padding-top: 40px;
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.featured-title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.featured-icon {
+    font-size: 36px !important;
+    color: #f4c400;
+    margin-right: 10px;
+}
+
+.featured-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #383838;
+}
+
+.scroll-btn {
+    background: #E9E9EB;
+    border: 1px solid #E9E9EB;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.scroll-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.scroll-btn-icon {
+    color: #383838 !important;
+}
+
+.scroll-btn:hover {
+    background-color: #FEDA15;
+}
+
+.scroll-btn:hover .scroll-btn-icon {
+    color: #ffffff !important;
+}
+
+.category-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    scroll-behavior: smooth;
+}
+
+.category-row::-webkit-scrollbar {
+    display: none;
+}
+
+.category-card {
+    flex: 0 0 auto;
+    width: 160px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.category-img {
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover .category-img {
+    transform: scale(1.05);
+}
+
+.category-card:hover .category-title {
+    color: #f4c400;
+}
+
+.category-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #383838;
+}
+
+.category-sub {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #383838;
+}
+
+
+@media (min-width: 0px) {
+    .category-card {
+        width: calc((100% - 1 * 16px) / 2);
+    }
+}
+
+@media (min-width: 576px) {
+    .category-card {
+        width: calc((100% - 2 * 16px) / 3);
+    }
+}
+
+@media (min-width: 992px) {
+    .category-card {
+        width: calc((100% - 5 * 16px) / 6);
+        /* 6 cards with 16px gap */
+    }
+}
