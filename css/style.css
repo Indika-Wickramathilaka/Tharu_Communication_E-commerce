@@ -526,3 +526,23 @@ a.text-decoration-none:hover {
         max-width: 20%;
     }
 }
+
+/* Feature */
+.custom-feature-icon {
+    color: #FEDA15;
+    font-size: 2.5rem !important;
+}
+
+.custom-feature-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: 383838;
+}
+
+.custom-feature-para {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #383838;
+}
