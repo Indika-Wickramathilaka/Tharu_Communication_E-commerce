@@ -546,3 +546,112 @@ a.text-decoration-none:hover {
     font-size: 1rem;
     color: #383838;
 }
+
+/* Footer */
+.footer-logo {
+    max-height: 120px;
+    max-width: 300px;
+}
+
+.footer-text-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.footer-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.footer-link:hover {
+    color: #FEDA15;
+}
+
+.opening-hours li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 2px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.opening-hours .day {
+    width: 90px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.opening-hours .time {
+    text-align: left;
+    font-weight: 400;
+    flex: 1;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-text-para {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.custom-contact-icon {
+    color: #FEDA15;
+    font-size: 1.25rem !important;
+    line-height: 1.5;
+    flex-shrink: 0;
+}
+
+.social-icon {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.3125rem;
+    border-radius: 50%;
+    background-color: #FEDA15;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    font-size: 0.875rem;
+}
+
+.social-icon:hover {
+    background-color: #FEDA15;
+    color: #383838;
+    transform: scale(1.1);
+}
+
+.custom-footer-heading {
+    margin-bottom: 1.875rem;
+}
+
+.custom-footer-bottom {
+    color: #FFFFFF;
+    background-color: #292929;
+    height: 3.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-footer-bottom-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+}
