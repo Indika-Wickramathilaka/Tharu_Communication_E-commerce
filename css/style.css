@@ -829,3 +829,46 @@ a.text-decoration-none:hover {
     background-color: #383838;
     color: #FEDA15;
 }
+
+
+/* About page */
+/* About */
+.custom-about-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #383838;
+    margin-bottom: 0.75rem;
+}
+
+.custom-about-para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #383838;
+}
+
+.custom-about-para-main {
+    margin-bottom: 0.3125rem;
+    text-align: justify;
+}
+
+.custom-about-para-list {
+    margin-bottom: 0px !important;
+}
+
+.custom-about-icon {
+    color: #FEDA15;
+    font-size: 2rem !important;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .about-image {
+    height: auto; /* 399px */
+  }
+}
