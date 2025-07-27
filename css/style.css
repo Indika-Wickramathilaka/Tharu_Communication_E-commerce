@@ -880,6 +880,7 @@ a.text-decoration-none:hover {
 /* Log in */
 .login-container {
     margin-top: 4.6875rem;
+    margin-bottom: 4.6875rem;
 }
 
 .login-left {
