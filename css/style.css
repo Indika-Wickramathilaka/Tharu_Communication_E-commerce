@@ -941,7 +941,7 @@ a.text-decoration-none:hover {
     font-size: 1rem;
     color: #383838;
     background-color: #ffffff;
-    border: 1px solid rgba(56, 56, 56, 0.25);
+    border: 1px solid rgba(56, 56, 56, 0.75);
     border-radius: 0 !important;
     padding: 0.75rem 1rem;
     height: 42px;
@@ -956,7 +956,8 @@ a.text-decoration-none:hover {
 }
 
 .login-form .form-control::placeholder {
-    color: rgba(56, 56, 56, 0.25);
+    color: rgba(56, 56, 56, 0.75);
+    ;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -996,7 +997,7 @@ a.text-decoration-none:hover {
 
 .custom-btn-account:hover {
     background-color: #383838;
-    color: #FFFFFF;
+    color: #FEDA15;
 }
 
 .create-account {
@@ -1012,6 +1013,31 @@ a.text-decoration-none:hover {
     color: #FEDA15;
     text-decoration: none;
 }
+
+.custom-create-account-terms-para {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #383838;
+    text-align: center;
+}
+
+.custom-create-account-terms-para a {
+    text-decoration: none;
+}
+
+.custom-create-account-terms-para-link {
+    color: #FEDA15;
+}
+
+.custom-login-form-first-name {
+    padding-right: 8px;
+}
+
+.custom-login-form-last-name {
+    padding-left: 8px;
+}
+
 
 @media (max-width: 1400px) {
 
