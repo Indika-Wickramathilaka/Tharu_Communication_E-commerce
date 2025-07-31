@@ -874,6 +874,58 @@ a.text-decoration-none:hover {
     }
 }
 
+/* Mission */
+.shadow-effect {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card {
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    padding: 1.875rem 2.8125rem;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-wrapper {
+    width: 70px;
+    height: 70px;
+    background-color: #fbf1ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #FEDA15;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-wrapper .custom-about-card-icon {
+    font-size: 2rem !important;
+}
+
+.about-card:hover .icon-wrapper {
+    background-color: #FEDA15;
+    color: #ffffff;
+}
+
+.custom-about-card-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #383838;
+}
+
+.custom-about-card-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #383838;
+}
+
 
 /* Log in page */
 /* Create account page */
